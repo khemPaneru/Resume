@@ -143,15 +143,11 @@
 
 %-----------Tech skill-----------
 \section{Technical Skills}
-\begin{multicols}{2}
-\begin{itemize}[leftmargin=*]
-  \item \textbf{Languages:} Python, SQL, PowerShell, Bash, HTML, CSS
-  \item \textbf{Networking:} VLANs, Subnetting, NAT, DHCP, RIP, OSPF (basic), DNS, Active Directory
-  \item \textbf{Platforms/Systems:} Windows 10/11, Windows Server 2016–2022, Ubuntu
-  \item \textbf{Tools:} Cisco Packet Tracer, Wireshark, Docker, Git, GitHub, VS Code, VirtualBox, Hyper-V
-  \item \textbf{Admin/Automation:} GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
-\end{itemize}
-\end{multicols}
+Languages: Python, SQL, PowerShell, Bash, HTML, CSS \\
+Networking: VLANs, Subnetting, NAT, DHCP, RIP, OSPF (basic), DNS, Active Directory \\
+Platforms/Systems: Windows 10/11, Windows Server 2016–2022, Ubuntu \\
+Tools: Cisco Packet Tracer, Wireshark, Docker, Git, GitHub, VS Code, VirtualBox, Hyper-V \\
+Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
 
 %-----------CERTIFICATIONS-----------
 \section{Certifications}
