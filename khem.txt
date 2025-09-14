@@ -109,12 +109,14 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-    {\textbf{POS System with NFC Simulation}}{Python $|$ Tkinter $|$ SQLite}
+  {\textbf{POS System for Small Cafes (CS50 Final Project)}}{Python $|$ CSV $|$ Pytest}
   \resumeItemListStart
-    \resumeItem{Simulated a \textbf{tap-to-pay POS system} using NFC logic with real-time transaction and inventory logging.}
-    \resumeItem{Designed a custom UI and stored transactions in \textbf{SQLite}; implemented \textbf{dynamic receipt generation}.}
+    \resumeItem{Built a lightweight \textbf{POS system} with CSV-based inventory and stock updates.}
+    \resumeItem{Implemented \texttt{load\_inventory()}, \texttt{save\_inventory()}, and \texttt{purchase\_item()} with error handling.}
+    \resumeItem{Created a CLI and unit tests with \textbf{pytest} for reliable transactions.}
   \resumeItemListEnd
   \vspace{-14pt}
+
 
 \resumeProjectHeading
     {\textbf{Bitcoin Price Tracker}}{Python $|$ REST API $|$ JSON}
@@ -152,6 +154,7 @@ Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
 %-----------CERTIFICATIONS-----------
 \section{Certifications}
 \begin{itemize}[itemsep=2pt, topsep=0pt]
+\item Microsoft Certified: Azure(Az-900) Fundamentals
 \item CS50: Introduction to Programming with Python — HarvardX
 \item Career Essentials in System Administration — Microsoft
 \item Computer Hardware Basics — Cisco
@@ -166,7 +169,7 @@ Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
     {Diploma in Computer Systems and Networking Technician}{Mississauga, ON, Canada}
 \resumeSubHeadingListEnd
 \resumeItemListStart
-  \resumeItem{Relevant Courses: \textbf{Routing \& Switching}, PowerShell Scripting, Linux, Windows Server, Network Security, Cybersecurity Fundamentals}
+  \resumeItem{Relevant Courses: \textbf{Routing \& Switching}, PowerShell Scripting, Linux, Windows Server, Network Security, Cybersecurity Fundamentals}, Azure
 \resumeItemListEnd
 
 \end{document}
