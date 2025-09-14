@@ -1,0 +1,176 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.15in}
+\addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{0pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]} 
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Khem Raj Paneru} \\[2mm]
+    \footnotesize
+    \faPhone\ \underline{(416) 837-3109} ~ 
+    {\faEnvelope\ \underline{khempaneru2@gmail.com}} ~ 
+    {\faLinkedin\ \underline{\href{https://www.linkedin.com/in/khempaneru}{linkedin.com/in/khempaneru}}} ~
+    {\faGithub\ \underline{\href{https://github.com/khempaneru}{github.com/khempaneru}}}
+\end{center}
+\vspace{-8pt}
+
+%-----------Experience---------------
+\section{Practical Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {System \& Network Lab Projects – Canadore College}{Jan 2024 – Present}
+  {Mississauga, ON}{}
+\resumeItemListStart
+  \resumeItem{Configured routers and switches using \textbf{Cisco Packet Tracer}; implemented VLANs, trunking, and inter-VLAN routing.}
+  \resumeItem{Built and troubleshooted network topologies with \textbf{static routing}, \textbf{RIP}, \textbf{NAT}, \textbf{DHCP}, and subnetting.}
+  \resumeItem{Collaborated in lab teams to identify and resolve \textbf{IP conflicts}, \textbf{routing loops}, and configuration errors.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Windows Server Administration – College Labs}{Sept 2024 – Dec 2024}
+  {Mississauga, ON}{}
+\resumeItemListStart
+  \resumeItem{Installed and configured \textbf{Windows Server 2019} with \textbf{Active Directory}, \textbf{DNS}, and \textbf{DHCP} roles.}
+  \resumeItem{Used \textbf{Group Policy Objects (GPO)} to manage user environments and enforce security settings.}
+  \resumeItem{Automated administrative tasks like \textbf{user creation}, \textbf{system updates}, and \textbf{event log collection} using \textbf{PowerShell}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------Projects-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+    {\textbf{POS System with NFC Simulation}}{Python $|$ Tkinter $|$ SQLite}
+  \resumeItemListStart
+    \resumeItem{Simulated a \textbf{tap-to-pay POS system} using NFC logic with real-time transaction and inventory logging.}
+    \resumeItem{Designed a custom UI and stored transactions in \textbf{SQLite}; implemented \textbf{dynamic receipt generation}.}
+  \resumeItemListEnd
+  \vspace{-14pt}
+
+\resumeProjectHeading
+    {\textbf{Bitcoin Price Tracker}}{Python $|$ REST API $|$ JSON}
+  \resumeItemListStart
+    \resumeItem{Built a \textbf{CLI tool} to fetch real-time Bitcoin data using the \textbf{CoinCap API}.}
+    \resumeItem{Handled \textbf{API response validation}, CLI input processing, and calculated total investment cost.}
+  \resumeItemListEnd
+  \vspace{-14pt}
+
+\resumeProjectHeading
+    {\textbf{Cisco Networking Lab Automation}}{Cisco Packet Tracer $|$ CLI}
+  \resumeItemListStart
+    \resumeItem{Automated \textbf{VLANs}, \textbf{trunking}, and \textbf{routing} setups across multiple lab scenarios.}
+    \resumeItem{Documented lab configurations including \textbf{DHCP}, \textbf{RIP}, \textbf{NAT}, and loopback interfaces.}
+  \resumeItemListEnd
+  \vspace{-14pt}
+
+\resumeProjectHeading
+    {\textbf{Remote IT Support Toolkit}}{PowerShell $|$ Bash $|$ Windows Server $|$ Docker}
+  \resumeItemListStart
+    \resumeItem{Automated \textbf{user creation}, log export, and remote maintenance tasks using \textbf{PowerShell scripts}.}
+    \resumeItem{Tested automation scripts across containers with \textbf{Docker}; integrated logging features.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------Tech skill-----------
+\section{Technical Skills}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Languages:} Python, SQL, PowerShell, Bash, HTML, CSS
+  \item \textbf{Networking:} VLANs, Subnetting, NAT, DHCP, RIP, OSPF (basic), DNS, Active Directory
+  \item \textbf{Platforms/Systems:} Windows 10/11, Windows Server 2016–2022, Ubuntu
+  \item \textbf{Tools:} Cisco Packet Tracer, Wireshark, Docker, Git, GitHub, VS Code, VirtualBox, Hyper-V
+  \item \textbf{Admin/Automation:} GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
+\end{itemize}
+\end{multicols}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\begin{itemize}[itemsep=2pt, topsep=0pt]
+\item CS50: Introduction to Programming with Python — HarvardX
+\item Career Essentials in System Administration — Microsoft
+\item Computer Hardware Basics — Cisco
+\item Cisco CCNA Prep (Self-Study)
+\end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Canadore College}{Expected Graduation: April 2025}
+    {Diploma in Computer Systems and Networking Technician}{Mississauga, ON, Canada}
+\resumeSubHeadingListEnd
+\resumeItemListStart
+  \resumeItem{Relevant Courses: \textbf{Routing \& Switching}, PowerShell Scripting, Linux, Windows Server, Network Security, Cybersecurity Fundamentals}
+\resumeItemListEnd
+
+\end{document}
