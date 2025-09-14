@@ -85,7 +85,7 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-  {System \& Network Lab Projects – Canadore College}{Jan 2024 – Present}
+  {System \& Network Lab Projects – Canadore College}{sep 2024 – dec 2024}
   {Mississauga, ON}{}
 \resumeItemListStart
   \resumeItem{Configured routers and switches using \textbf{Cisco Packet Tracer}; implemented VLANs, trunking, and inter-VLAN routing.}
@@ -94,7 +94,7 @@
 \resumeItemListEnd
 
 \resumeSubheading
-  {Windows Server Administration – College Labs}{Sept 2024 – Dec 2024}
+  {Windows Server Administration – College Labs}{Apr 2025 – Aug 2025}
   {Mississauga, ON}{}
 \resumeItemListStart
   \resumeItem{Installed and configured \textbf{Windows Server 2019} with \textbf{Active Directory}, \textbf{DNS}, and \textbf{DHCP} roles.}
@@ -157,7 +157,8 @@ Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
 \item Microsoft Certified: Azure(Az-900) Fundamentals
 \item CS50: Introduction to Programming with Python — HarvardX
 \item Career Essentials in System Administration — Microsoft
-\item Computer Hardware Basics — Cisco
+\item Computer Hardware Basics —Cisco
+\item Infosys Springboard:  Basic of Python
 \item Cisco CCNA Prep (Self-Study)
 \end{itemize}
 
