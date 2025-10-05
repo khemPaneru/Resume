@@ -146,7 +146,7 @@
 %-----------Tech skill-----------
 \section{Technical Skills}
 Languages: Python, SQL, PowerShell, Bash, HTML, CSS \\
-Networking: VLANs, Subnetting, NAT, DHCP, RIP, OSPF (basic), DNS, Active Directory \\
+Networking: VLANs, Subnetting, NAT, DHCP, RIP, OSPF , DNS, Active Directory \\
 Platforms/Systems: Windows 10/11, Windows Server 2016–2022, Ubuntu \\
 Tools: Cisco Packet Tracer, Wireshark, Docker, Git, GitHub, VS Code, VirtualBox, Hyper-V \\
 Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
@@ -159,7 +159,7 @@ Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
 \item Career Essentials in System Administration — Microsoft
 \item Computer Hardware Basics —Cisco
 \item Infosys Springboard:  Basic of Python
-\item Cisco CCNA Prep (Self-Study)
+\item Microsoft Azure Administrator (AZ-104) ,self study
 \end{itemize}
 
 %-----------EDUCATION-----------
@@ -170,7 +170,7 @@ Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
     {Diploma in Computer Systems and Networking Technician}{Mississauga, ON, Canada}
 \resumeSubHeadingListEnd
 \resumeItemListStart
-  \resumeItem{Relevant Courses: \textbf{Routing \& Switching}, PowerShell Scripting, Linux, Windows Server, Network Security, Cybersecurity Fundamentals}, Azure
+  \resumeItem{Relevant Courses: \textbf{Routing \& Switching}, PowerShell Scripting, Linux, Windows Server, Network Security, Cybersecurity Fundamentals}, Azure Administrator
 \resumeItemListEnd
 
 \end{document}
