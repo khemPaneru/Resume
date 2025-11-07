@@ -80,12 +80,17 @@
 \end{center}
 \vspace{-8pt}
 
+%-----------Objective-----------
+\section{Objective}
+A dynamic and motivated individual with a positive attitude, eager to learn new technologies and contribute effectively to team success.
+
+
 %-----------Experience---------------
 \section{Practical Experience}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-  {System \& Network Lab Projects – Canadore College}{sep 2024 – dec 2024}
+  {System \& Network Lab Projects – Canadore College}{Sep 2024 – Dec 2024}
   {Mississauga, ON}{}
 \resumeItemListStart
   \resumeItem{Configured routers and switches using \textbf{Cisco Packet Tracer}; implemented VLANs, trunking, and inter-VLAN routing.}
@@ -109,17 +114,16 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-  {\textbf{POS System for Small Cafes (CS50 Final Project)}}{Python $|$ CSV $|$ Pytest}
+  {\textbf{POS System for Small Cafes (CS50 Final Project)}}{Python | CSV | Pytest}
   \resumeItemListStart
     \resumeItem{Built a lightweight \textbf{POS system} with CSV-based inventory and stock updates.}
-    \resumeItem{Implemented \texttt{load\_inventory()}, \texttt{save\_inventory()}, and \texttt{purchase\_item()} with error handling.}
-    \resumeItem{Created a CLI and unit tests with \textbf{pytest} for reliable transactions.}
+    \resumeItem{Implemented \texttt{load\_inventory()}, \texttt{save\_inventory()}, and \texttt{purchase\_item()} with error-handling.}
+    \resumeItem{Created a CLI and unit-tests with \textbf{pytest} for reliable transactions.}
   \resumeItemListEnd
   \vspace{-14pt}
 
-
 \resumeProjectHeading
-    {\textbf{Bitcoin Price Tracker}}{Python $|$ REST API $|$ JSON}
+    {\textbf{Bitcoin Price Tracker}}{Python | REST API | JSON}
   \resumeItemListStart
     \resumeItem{Built a \textbf{CLI tool} to fetch real-time Bitcoin data using the \textbf{CoinCap API}.}
     \resumeItem{Handled \textbf{API response validation}, CLI input processing, and calculated total investment cost.}
@@ -127,7 +131,7 @@
   \vspace{-14pt}
 
 \resumeProjectHeading
-    {\textbf{Cisco Networking Lab Automation}}{Cisco Packet Tracer $|$ CLI}
+    {\textbf{Cisco Networking Lab Automation}}{Cisco Packet Tracer | CLI}
   \resumeItemListStart
     \resumeItem{Automated \textbf{VLANs}, \textbf{trunking}, and \textbf{routing} setups across multiple lab scenarios.}
     \resumeItem{Documented lab configurations including \textbf{DHCP}, \textbf{RIP}, \textbf{NAT}, and loopback interfaces.}
@@ -135,7 +139,7 @@
   \vspace{-14pt}
 
 \resumeProjectHeading
-    {\textbf{Remote IT Support Toolkit}}{PowerShell $|$ Bash $|$ Windows Server $|$ Docker}
+    {\textbf{Remote IT Support Toolkit}}{PowerShell | Bash | Windows Server | Docker}
   \resumeItemListStart
     \resumeItem{Automated \textbf{user creation}, log export, and remote maintenance tasks using \textbf{PowerShell scripts}.}
     \resumeItem{Tested automation scripts across containers with \textbf{Docker}; integrated logging features.}
@@ -143,26 +147,26 @@
 
 \resumeSubHeadingListEnd
 
-%-----------Tech skill-----------
+%-----------Technical Skills-----------
 \section{Technical Skills}
 Languages: Python, SQL, PowerShell, Bash, HTML, CSS \\
-Networking: VLANs, Subnetting, NAT, DHCP, RIP, OSPF , DNS, Active Directory \\
+Networking: VLANs, Subnetting, NAT, DHCP, RIP, OSPF, DNS, Active Directory \\
 Platforms/Systems: Windows 10/11, Windows Server 2016–2022, Ubuntu \\
 Tools: Cisco Packet Tracer, Wireshark, Docker, Git, GitHub, VS Code, VirtualBox, Hyper-V \\
 Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
 
-%-----------CERTIFICATIONS-----------
+%-----------Certifications-----------
 \section{Certifications}
 \begin{itemize}[itemsep=2pt, topsep=0pt]
-\item Microsoft Certified: Azure(Az-900) Fundamentals
-\item CS50: Introduction to Programming with Python — HarvardX
-\item Career Essentials in System Administration — Microsoft
-\item Computer Hardware Basics —Cisco
-\item Infosys Springboard:  Basic of Python
-\item Microsoft Azure Administrator (AZ-104) ,self study
+\item Microsoft Certified: Azure (AZ-900) Fundamentals  
+\item CS50: Introduction to Programming with Python — HarvardX  
+\item Career Essentials in System Administration — Microsoft  
+\item Computer Hardware Basics — Cisco  
+\item Infosys Springboard: Basics of Python  
+\item Microsoft Azure Administrator (AZ-104), self-study  
 \end{itemize}
 
-%-----------EDUCATION-----------
+%-----------Education-----------
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
@@ -170,7 +174,12 @@ Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
     {Diploma in Computer Systems and Networking Technician}{Mississauga, ON, Canada}
 \resumeSubHeadingListEnd
 \resumeItemListStart
-  \resumeItem{Relevant Courses: \textbf{Routing \& Switching}, PowerShell Scripting, Linux, Windows Server, Network Security, Cybersecurity Fundamentals}, Azure Administrator
+  \resumeItem{Relevant Courses: \textbf{Routing \& Switching}, PowerShell Scripting, Linux, Windows Server, Network Security, Cybersecurity Fundamentals, Azure Administrator}
 \resumeItemListEnd
+
+\vspace{5pt}
+\begin{center}
+\textit{Reference: Available on request}
+\end{center}
 
 \end{document}
