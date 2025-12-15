@@ -43,7 +43,7 @@
   \vspace{-2pt}\item
   \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
     \textbf{#1} & \textbf{\small #2} \\
-    \textit{\small #3} & \textit{\small #4} \\
+    \textit{\small#3} & \textit{\small #4} \\
   \end{tabular*}\vspace{-6pt}
 }
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=0pt]}
@@ -67,9 +67,10 @@
 \end{center}
 \vspace{-6pt}
 
-%-------------------- Summary --------------------
+%-------------------- Professional Summary --------------------
 \section{Professional Summary}
 Certified IT Support Technician with nearly 2 years of experience in technical support, system administration, and networking. Strong focus on Windows Server, Active Directory, and Microsoft Azure, with proven ability to resolve hardware, software, and network issues in both remote and on-site environments.
+
 %-------------------- Experience --------------------
 \section{WORK EXPERIENCE}
 \resumeSubHeadingListStart
@@ -84,7 +85,7 @@ Certified IT Support Technician with nearly 2 years of experience in technical s
   \resumeItem{Maintained computer labs including routers, switches, servers, and PCs; assisted students during networking labs.}
 \resumeItemListEnd
 
-\vspace{3mm}  % <-- This adds a line gap
+\vspace{3mm}  % line gap between experiences
 
 \resumeSubheading
   {Help Desk Support Intern — WorldLink Communications}{Oct 2021 – Apr 2022}
@@ -92,6 +93,7 @@ Certified IT Support Technician with nearly 2 years of experience in technical s
 \resumeItemListStart
   \resumeItem{Provided front-line support for internet outages and VoIP issues; configured routers, DHCP, static IPs, and port forwarding.}
   \resumeItem{Diagnosed LAN/WAN connectivity issues and documented solutions for internal knowledge base.}
+  \resumeItem{Managed inventory of IT assets, conducting regular audits to ensure accurate tracking and timely replenishment, reducing asset loss.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -109,7 +111,7 @@ Certified IT Support Technician with nearly 2 years of experience in technical s
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
-%-------------------- Skills --------------------
+%-------------------- Technical Skills --------------------
 \section{Technical Skills}
 \textbf{Platforms:} Windows 10/11, Windows Server 2016–2022, Linux (Ubuntu), macOS \\
 \textbf{Cloud \& Virtualization:} Microsoft Azure, VMware, Hyper-V, VirtualBox \\
@@ -133,12 +135,11 @@ Certified IT Support Technician with nearly 2 years of experience in technical s
 \section{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
-  {Canadore College}{Expected Graduation: April 2025}
-  {Diploma in Computer Systems and Networking Technician}{Mississauga, ON}
+  {\textbf{Canadore College, Mississauga, ON} — Honours Diploma in Computer Systems and Networking Technician}{}{}{}
 \resumeSubHeadingListEnd
 
 \resumeItemListStart
-  \resumeItem{Relevant Coursework: Routing \& Switching, PowerShell Scripting, Linux Administration, Windows Server, Cybersecurity, Azure Administration}
+  \resumeItem{\textbf{CGPA:} 3.9/4.0 \quad | \quad \textbf{Focus:} Networking, System Administration, Cloud Computing, Microsoft Administration}
 \resumeItemListEnd
 
 \vspace{3pt}
