@@ -5,7 +5,6 @@
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
@@ -16,7 +15,7 @@
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
-\usepackage[margin=1.4cm]{geometry}
+\usepackage[margin=1.2cm]{geometry}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -24,162 +23,127 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-\addtolength{\oddsidemargin}{-0.15in}
-\addtolength{\textwidth}{0.3in}
-
 \urlstyle{same}
-
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\titleformat{\section}
+  {\vspace{-4pt}\scshape\raggedright\large\bfseries}
+  {}
+  {0em}
+  {}
+  [\color{black}\titlerule \vspace{-5pt}]
 
 \pdfgentounicode=1
 
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{{#1 \vspace{0pt}}}
-}
-
+%-------------------- Custom Commands --------------------
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textbf{\small #2} \\
+    \textit{\small #3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-6pt}
 }
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]} 
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
+%-------------------- Document --------------------
 \begin{document}
 
-%----------HEADING----------
+%-------------------- Header --------------------
 \begin{center}
-    {\Large \scshape Khem Raj Paneru} \\[2mm]
-    \footnotesize
-    \faPhone\ \underline{(416) 837-3109} ~ 
-    {\faEnvelope\ \underline{khempaneru2@gmail.com}} ~ 
-    {\faLinkedin\ \underline{\href{https://www.linkedin.com/in/khempaneru}{linkedin.com/in/khempaneru}}} ~
-    {\faGithub\ \underline{\href{https://github.com/khempaneru}{github.com/khempaneru}}}
+  {\Large \scshape Khem Raj Paneru} \\[1mm]
+  \footnotesize
+  \faPhone\ (416)~837--3109 \quad
+  \faEnvelope\ \href{mailto:khempaneru2@gmail.com}{khempaneru2@gmail.com} \quad
+  \faLinkedin\ \href{https://www.linkedin.com/in/khempaneru}{linkedin.com/in/khempaneru} \quad
+  \faGithub\ \href{https://github.com/khempaneru}{github.com/khempaneru}
 \end{center}
-\vspace{-8pt}
+\vspace{-6pt}
 
-%-----------Objective-----------
-\section{Objective}
-A dynamic and motivated individual with a positive attitude, eager to learn new technologies and contribute effectively to team success.
-
-
-%-----------Experience---------------
-\section{Practical Experience}
+%-------------------- Summary --------------------
+\section{Professional Summary}
+Certified IT Support Technician with nearly 2 years of experience in technical support, system administration, and networking. Strong focus on Windows Server, Active Directory, and Microsoft Azure, with proven ability to resolve hardware, software, and network issues in both remote and on-site environments.
+%-------------------- Experience --------------------
+\section{WORK EXPERIENCE}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-  {System \& Network Lab Projects – Canadore College}{Sep 2024 – Dec 2024}
+  {IT Technical Support \& Computer Laboratory Technician — Canadore College}{Sep 2024 – Apr 2025}
   {Mississauga, ON}{}
 \resumeItemListStart
-  \resumeItem{Configured routers and switches using \textbf{Cisco Packet Tracer}; implemented VLANs, trunking, and inter-VLAN routing.}
-  \resumeItem{Built and troubleshooted network topologies with \textbf{static routing}, \textbf{RIP}, \textbf{NAT}, \textbf{DHCP}, and subnetting.}
-  \resumeItem{Collaborated in lab teams to identify and resolve \textbf{IP conflicts}, \textbf{routing loops}, and configuration errors.}
+  \resumeItem{Delivered Tier 1 IT support, resolving 150+ monthly tickets using Salesforce and F9 VoIP.}
+  \resumeItem{Supported HyFlex classrooms (AV, Zoom SSO, cameras, microphones), reducing downtime by 30\%.}
+  \resumeItem{Re-imaged and deployed 200+ workstations; configured OS, VPN access, printers, and applications.}
+  \resumeItem{Maintained computer labs including routers, switches, servers, and PCs; assisted students during networking labs.}
 \resumeItemListEnd
 
+\vspace{3mm}  % <-- This adds a line gap
+
 \resumeSubheading
-  {Windows Server Administration – College Labs}{Apr 2025 – Aug 2025}
-  {Mississauga, ON}{}
+  {Help Desk Support Intern — WorldLink Communications}{Oct 2021 – Apr 2022}
+  {Dhangadhi, Nepal}{}
 \resumeItemListStart
-  \resumeItem{Installed and configured \textbf{Windows Server 2019} with \textbf{Active Directory}, \textbf{DNS}, and \textbf{DHCP} roles.}
-  \resumeItem{Used \textbf{Group Policy Objects (GPO)} to manage user environments and enforce security settings.}
-  \resumeItem{Automated administrative tasks like \textbf{user creation}, \textbf{system updates}, and \textbf{event log collection} using \textbf{PowerShell}.}
+  \resumeItem{Provided front-line support for internet outages and VoIP issues; configured routers, DHCP, static IPs, and port forwarding.}
+  \resumeItem{Diagnosed LAN/WAN connectivity issues and documented solutions for internal knowledge base.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
-%-----------Projects-----------
+%-------------------- Projects --------------------
 \section{Projects}
 \resumeSubHeadingListStart
-
-\resumeProjectHeading
-  {\textbf{POS System for Small Cafes (CS50 Final Project)}}{Python | CSV | Pytest}
-  \resumeItemListStart
-    \resumeItem{Built a lightweight \textbf{POS system} with CSV-based inventory and stock updates.}
-    \resumeItem{Implemented \texttt{load\_inventory()}, \texttt{save\_inventory()}, and \texttt{purchase\_item()} with error-handling.}
-    \resumeItem{Created a CLI and unit-tests with \textbf{pytest} for reliable transactions.}
-  \resumeItemListEnd
-  \vspace{-14pt}
-
-\resumeProjectHeading
-    {\textbf{Bitcoin Price Tracker}}{Python | REST API | JSON}
-  \resumeItemListStart
-    \resumeItem{Built a \textbf{CLI tool} to fetch real-time Bitcoin data using the \textbf{CoinCap API}.}
-    \resumeItem{Handled \textbf{API response validation}, CLI input processing, and calculated total investment cost.}
-  \resumeItemListEnd
-  \vspace{-14pt}
-
-\resumeProjectHeading
-    {\textbf{Cisco Networking Lab Automation}}{Cisco Packet Tracer | CLI}
-  \resumeItemListStart
-    \resumeItem{Automated \textbf{VLANs}, \textbf{trunking}, and \textbf{routing} setups across multiple lab scenarios.}
-    \resumeItem{Documented lab configurations including \textbf{DHCP}, \textbf{RIP}, \textbf{NAT}, and loopback interfaces.}
-  \resumeItemListEnd
-  \vspace{-14pt}
-
-\resumeProjectHeading
-    {\textbf{Remote IT Support Toolkit}}{PowerShell | Bash | Windows Server | Docker}
-  \resumeItemListStart
-    \resumeItem{Automated \textbf{user creation}, log export, and remote maintenance tasks using \textbf{PowerShell scripts}.}
-    \resumeItem{Tested automation scripts across containers with \textbf{Docker}; integrated logging features.}
-  \resumeItemListEnd
-
-\resumeSubHeadingListEnd
-
-%-----------Technical Skills-----------
-\section{Technical Skills}
-Languages: Python, SQL, PowerShell, Bash, HTML, CSS \\
-Networking: VLANs, Subnetting, NAT, DHCP, RIP, OSPF, DNS, Active Directory \\
-Platforms/Systems: Windows 10/11, Windows Server 2016–2022, Ubuntu \\
-Tools: Cisco Packet Tracer, Wireshark, Docker, Git, GitHub, VS Code, VirtualBox, Hyper-V \\
-Admin/Automation: GPO, Event Viewer, RDP, Imaging, Scheduled Tasks
-
-%-----------Certifications-----------
-\section{Certifications}
-\begin{itemize}[itemsep=2pt, topsep=0pt]
-\item Microsoft Certified: Azure (AZ-900) Fundamentals  
-\item CS50: Introduction to Programming with Python — HarvardX  
-\item Career Essentials in System Administration — Microsoft  
-\item Computer Hardware Basics — Cisco  
-\item Infosys Springboard: Basics of Python  
-\item Microsoft Azure Administrator (AZ-104), self-study  
-\end{itemize}
-
-%-----------Education-----------
-\section{Education}
-\resumeSubHeadingListStart
-  \resumeSubheading
-    {Canadore College}{Expected Graduation: April 2025}
-    {Diploma in Computer Systems and Networking Technician}{Mississauga, ON, Canada}
-\resumeSubHeadingListEnd
+\resumeSubheading
+  {Academic \& Technical Projects}{Python | Azure | Cisco}
+  {}{}
 \resumeItemListStart
-  \resumeItem{Relevant Courses: \textbf{Routing \& Switching}, PowerShell Scripting, Linux, Windows Server, Network Security, Cybersecurity Fundamentals, Azure Administrator}
+  \resumeItem{Developed a Python-based CLI POS system with inventory management, validation, and unit testing (CS50 Final Project).}
+  \resumeItem{Deployed a fault-tolerant multi-region web application using Azure Traffic Manager and load balancing.}
+  \resumeItem{Configured VLANs, inter-VLAN routing, DHCP, NAT, and ACLs using Cisco Packet Tracer.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-------------------- Skills --------------------
+\section{Technical Skills}
+\textbf{Platforms:} Windows 10/11, Windows Server 2016–2022, Linux (Ubuntu), macOS \\
+\textbf{Cloud \& Virtualization:} Microsoft Azure, VMware, Hyper-V, VirtualBox \\
+\textbf{Networking:} TCP/IP, VLANs, Subnetting, NAT, DHCP, DNS, RIP, OSPF, VPN basics, LAN/WAN, Cisco Packet Tracer \\
+\textbf{Administration:} Active Directory, Azure AD (Entra ID), Microsoft 365, Exchange Online, Intune, Group Policy \\
+\textbf{Security:} Firewall rules, SSL/TLS basics, Metasploit (lab exposure) \\
+\textbf{Support \& Tools:} Salesforce, ServiceNow, F9 VoIP, RDP, Wireshark, Git, GitHub, VS Code \\
+\textbf{Scripting \& Databases:} PowerShell, Python, Bash, SQL, MySQL, SQL Server \\
+\textbf{Soft Skills:} Communication, Customer Service, Problem-Solving, Teamwork, Time Management
+
+%-------------------- Certifications --------------------
+\section{Certifications}
+\resumeItemListStart
+  \resumeItem{Microsoft Certified: Azure Fundamentals (AZ-900)}
+  \resumeItem{CS50: Introduction to Programming with Python — HarvardX}
+  \resumeItem{Career Essentials in System Administration — Microsoft}
+  \resumeItem{Computer Hardware Basics — Cisco}
 \resumeItemListEnd
 
-\vspace{5pt}
+%-------------------- Education --------------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Canadore College}{Expected Graduation: April 2025}
+  {Diploma in Computer Systems and Networking Technician}{Mississauga, ON}
+\resumeSubHeadingListEnd
+
+\resumeItemListStart
+  \resumeItem{Relevant Coursework: Routing \& Switching, PowerShell Scripting, Linux Administration, Windows Server, Cybersecurity, Azure Administration}
+\resumeItemListEnd
+
+\vspace{3pt}
 \begin{center}
-\textit{Reference: Available on request}
+\textit{References available upon request}
 \end{center}
 
 \end{document}
