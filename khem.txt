@@ -124,7 +124,7 @@ Certified IT Support Technician with nearly 2 years of hands-on experience in te
 \resumeSubHeadingListEnd
 
 \resumeItemListStart
-\resumeItem{\textbf{CGPA:} 3.9/4.0 — Focus: Networking, System Administration, Cloud Computing, Microsoft Administration}
+\resumeItem{\textbf{CGPA:} 3.3/4.0 — Focus: Networking, System Administration, Cloud Computing, Microsoft Administration}
 \resumeItemListEnd
 
 \vspace{3pt}
