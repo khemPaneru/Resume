@@ -42,13 +42,17 @@
 \begin{center}
   {\Large \scshape KHEM PANERU} \\[1mm]
   \footnotesize
-  Toronto, Ontario — 
-  LinkedIn: \href{https://www.linkedin.com/in/khem-paneru-a59802327/}{KhemPaneru} — 
-  416-837-3109 — 
-  \href{mailto:khempaneru2@gmail.com}{khempaneru2@gmail.com} — 
-  Portfolio: \href{https://khempaneru.github.io/}{khempaneru.github.io}
+  Toronto, Ontario \,|\, 
+  \href{https://www.linkedin.com/in/khem-paneru-a59802327/}{LinkedIn: KhemPaneru} \,|\, 
+  416-837-3109 \,|\, 
+  \href{mailto:khempaneru2@gmail.com}{khempaneru2@gmail.com} \,|\, 
+  \href{https://khempaneru.github.io/}{Portfolio} \,|\, 
+  \href{https://github.com/khemPaneru}{GitHub}
 \end{center}
 \vspace{-2pt}
+
+
+
 
 %-------------------- Professional Summary --------------------
 \section*{Professional Summary}
