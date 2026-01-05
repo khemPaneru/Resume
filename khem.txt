@@ -1,118 +1,98 @@
 \documentclass[letterpaper,11pt]{article}
 
-\usepackage{latexsym}
 \usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
-\usepackage{multicol}
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
-\input{glyphtounicode}
 \usepackage[margin=1.2cm]{geometry}
+\usepackage{titlesec}
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
+%-------------------- Page & Section Settings --------------------
+\pagestyle{empty}
 \urlstyle{same}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
 \titleformat{\section}
-  {\vspace{-4pt}\scshape\raggedright\large\bfseries}
-  {}
-  {0em}
-  {}
-  [\color{black}\titlerule \vspace{-5pt}]
-
-\pdfgentounicode=1
+  {\large\bfseries} % bold, slightly bigger
+  {} % no number
+  {0em}{} % spacing before text
+  [\vspace{-2pt}\rule{\linewidth}{0.4pt}\vspace{2pt}] % thin line under section
 
 %-------------------- Custom Commands --------------------
-\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-1pt}}}
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
   \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
     \textbf{#1} & \textbf{\small #2} \\
-    \textit{\small#3} & \textit{\small #4} \\
-  \end{tabular*}\vspace{-6pt}
+    \textit{\small #3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-4pt}
 }
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=0pt]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=1pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-
-\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 %-------------------- Document --------------------
 \begin{document}
 
 %-------------------- Header --------------------
 \begin{center}
-  {\Large \scshape Khem Raj Paneru} \\[1mm]
+  {\Large \scshape KHEM PANERU} \\[1mm]
   \footnotesize
-  \faPhone\ (416)~837--3109 \quad
-  \faEnvelope\ \href{mailto:khempaneru2@gmail.com}{khempaneru2@gmail.com} \quad
-  \faLinkedin\ \href{https://www.linkedin.com/in/khempaneru}{linkedin.com/in/khempaneru} \quad
-  \faGithub\ \href{https://github.com/khempaneru}{github.com/khempaneru}
+  Toronto, Ontario — 
+  LinkedIn: \href{https://www.linkedin.com/in/khem-paneru-a59802327/}{KhemPaneru} — 
+  416-837-3109 — 
+  \href{mailto:khempaneru2@gmail.com}{khempaneru2@gmail.com} — 
+  Portfolio: \href{https://khempaneru.github.io/}{khempaneru.github.io}
 \end{center}
-\vspace{-6pt}
+\vspace{-2pt}
 
 %-------------------- Professional Summary --------------------
-\section{Professional Summary}
-Certified IT Support Technician with nearly 2 years of experience in technical support, system administration, and networking. Strong focus on Windows Server, Active Directory, and Microsoft Azure, with proven ability to resolve hardware, software, and network issues in both remote and on-site environments.
+\section*{Professional Summary}
+Certified IT Support Technician with nearly 2 years of hands-on experience in technical support, system administration, and network infrastructure. A Canadore College honours graduate with a 3.3 GPA in Computer Systems and Networking Technician. Skilled at troubleshooting hardware, software, and network issues while providing excellent customer service. Specialized in Windows Server, Active Directory, and cloud platforms including Microsoft Azure and VMware. Committed to delivering secure, scalable IT solutions in both remote and on-site environments.
 
-%-------------------- Experience --------------------
-\section{WORK EXPERIENCE}
+%-------------------- Work Experience --------------------
+\section*{Work Experience}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-  {IT Technical Support \& Computer Laboratory Technician — Canadore College}{Sep 2024 – Apr 2025}
-  {Mississauga, ON}{}
+{IT Technical Support \& Computer Laboratory Technician — Canadore College}{Sep 2024 – Apr 2025}
+{Mississauga, ON}{}
 \resumeItemListStart
-  \resumeItem{Delivered Tier 1 IT support, resolving 150+ monthly tickets using Salesforce and F9 VoIP.}
-  \resumeItem{Supported HyFlex classrooms (AV, Zoom SSO, cameras, microphones), reducing downtime by 30\%.}
-  \resumeItem{Re-imaged and deployed 200+ workstations; configured OS, VPN access, printers, and applications.}
-  \resumeItem{Maintained computer labs including routers, switches, servers, and PCs; assisted students during networking labs.}
+\resumeItem{Delivered Tier 1 IT support, resolving 150+ monthly tickets using Salesforce and F9 VoIP.}
+\resumeItem{Supported HyFlex classrooms (AV, Zoom SSO, cameras, microphones), reducing downtime by 30\%.}
+\resumeItem{Re-imaged and deployed 200+ workstations; configured OS, VPN access, printers, and applications.}
+\resumeItem{Maintained computer labs including routers, switches, servers, and PCs; assisted students during networking labs.}
 \resumeItemListEnd
 
-\vspace{3mm}  % line gap between experiences
-
 \resumeSubheading
-  {Help Desk Support Intern — WorldLink Communications}{Oct 2021 – Apr 2022}
-  {Dhangadhi, Nepal}{}
+{Help Desk Support Intern — WorldLink Communications}{Oct 2021 – Apr 2022}
+{Dhangadhi, Nepal}{}
 \resumeItemListStart
-  \resumeItem{Provided front-line support for internet outages and VoIP issues; configured routers, DHCP, static IPs, and port forwarding.}
-  \resumeItem{Diagnosed LAN/WAN connectivity issues and documented solutions for internal knowledge base.}
-  \resumeItem{Managed inventory of IT assets, conducting regular audits to ensure accurate tracking and timely replenishment, reducing asset loss.}
+\resumeItem{Provided front-line support for internet outages and VoIP issues; configured routers, DHCP, static IPs, and port forwarding.}
+\resumeItem{Diagnosed LAN/WAN connectivity issues and documented solutions for internal knowledge base.}
+\resumeItem{Managed inventory of IT assets, conducting regular audits to ensure accurate tracking and timely replenishment, reducing asset loss.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
 %-------------------- Projects --------------------
-\section{Projects}
+\section*{Projects}
 \resumeSubHeadingListStart
 \resumeSubheading
-  {Academic \& Technical Projects}{Python | Azure | Cisco}
-  {}{}
+{Academic \& Technical Projects — Python | Azure | Cisco}{}{}{}
 \resumeItemListStart
-  \resumeItem{Developed a Python-based CLI POS system with inventory management, validation, and unit testing (CS50 Final Project).}
-  \resumeItem{Deployed a fault-tolerant multi-region web application using Azure Traffic Manager and load balancing.}
-  \resumeItem{Configured VLANs, inter-VLAN routing, DHCP, NAT, and ACLs using Cisco Packet Tracer.}
+\resumeItem{Developed a Python-based CLI POS system with inventory management, validation, and unit testing (CS50 Final Project).}
+\resumeItem{Deployed a fault-tolerant multi-region web application using Azure Traffic Manager and load balancing.}
+\resumeItem{Configured VLANs, inter-VLAN routing, DHCP, NAT, and ACLs using Cisco Packet Tracer.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %-------------------- Technical Skills --------------------
-\section{Technical Skills}
+\section*{Technical Skills}
 \textbf{Platforms:} Windows 10/11, Windows Server 2016–2022, Linux (Ubuntu), macOS \\
 \textbf{Cloud \& Virtualization:} Microsoft Azure, VMware, Hyper-V, VirtualBox \\
 \textbf{Networking:} TCP/IP, VLANs, Subnetting, NAT, DHCP, DNS, RIP, OSPF, VPN basics, LAN/WAN, Cisco Packet Tracer \\
@@ -123,23 +103,24 @@ Certified IT Support Technician with nearly 2 years of experience in technical s
 \textbf{Soft Skills:} Communication, Customer Service, Problem-Solving, Teamwork, Time Management
 
 %-------------------- Certifications --------------------
-\section{Certifications}
+\section*{Certifications}
 \resumeItemListStart
-  \resumeItem{Microsoft Certified: Azure Fundamentals (AZ-900)}
-  \resumeItem{CS50: Introduction to Programming with Python — HarvardX}
-  \resumeItem{Career Essentials in System Administration — Microsoft}
-  \resumeItem{Computer Hardware Basics — Cisco}
+\resumeItem{Getting Started with Cybersecurity - IBM}
+\resumeItem{Microsoft Certified: Azure Fundamentals (AZ-900)}
+\resumeItem{CS50: Introduction to Programming with Python — HarvardX}
+\resumeItem{Career Essentials in System Administration — Microsoft}
+\resumeItem{Computer Hardware Basics — Cisco}
 \resumeItemListEnd
 
 %-------------------- Education --------------------
-\section{Education}
+\section*{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
-  {\textbf{Canadore College, Mississauga, ON} — Honours Diploma in Computer Systems and Networking Technician}{}{}{}
+{\textbf{Canadore College, Mississauga, ON} — Honours Diploma in Computer Systems and Networking Technician}{}{}{}
 \resumeSubHeadingListEnd
 
 \resumeItemListStart
-  \resumeItem{\textbf{CGPA:} 3.9/4.0 \quad | \quad \textbf{Focus:} Networking, System Administration, Cloud Computing, Microsoft Administration}
+\resumeItem{\textbf{CGPA:} 3.9/4.0 — Focus: Networking, System Administration, Cloud Computing, Microsoft Administration}
 \resumeItemListEnd
 
 \vspace{3pt}
