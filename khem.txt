@@ -8,7 +8,6 @@
 \usepackage[margin=1.2cm]{geometry}
 \usepackage{titlesec}
 
-%-------------------- Page & Section Settings --------------------
 \pagestyle{empty}
 \urlstyle{same}
 \raggedbottom
@@ -16,120 +15,117 @@
 \setlength{\tabcolsep}{0in}
 
 \titleformat{\section}
-  {\large\bfseries} % bold, slightly bigger
-  {} % no number
-  {0em}{} % spacing before text
-  [\vspace{-2pt}\rule{\linewidth}{0.4pt}\vspace{2pt}] % thin line under section
+{\large\bfseries}
+{}
+{0em}{}
+[\vspace{-2pt}\rule{\linewidth}{0.4pt}\vspace{2pt}]
 
-%-------------------- Custom Commands --------------------
 \newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-1pt}}}
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-    \textbf{#1} & \textbf{\small #2} \\
-    \textit{\small #3} & \textit{\small #4} \\
-  \end{tabular*}\vspace{-4pt}
-}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=1pt, topsep=0pt]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 
-%-------------------- Document --------------------
 \begin{document}
 
-%-------------------- Header --------------------
 \begin{center}
-  {\Large \scshape KHEM PANERU} \\[1mm]
-  \footnotesize
-  Toronto, Ontario \,|\, 
-  \href{https://www.linkedin.com/in/khem-paneru-a59802327/}{LinkedIn: KhemPaneru} \,|\, 
-  416-837-3109 \,|\, 
-  \href{mailto:khempaneru2@gmail.com}{khempaneru2@gmail.com} \,|\, 
-  \href{https://khempaneru.github.io/}{Portfolio} \,|\, 
-  \href{https://github.com/khemPaneru}{GitHub}
+{\Large \scshape KHEM RAJ PANERU}\\[1mm]
+\footnotesize
+Toronto, ON \;|\;
+416-837-3109 \;|\;
+\href{mailto:khempaneru2@gmail.com}{khempaneru2@gmail.com} \;|\;
+\href{https://www.linkedin.com/in/khem-paneru-a59802327/}{LinkedIn} \;|\;
+\href{https://github.com/khempaneru}{GitHub} \;|\;
+\href{https://khempaneru.github.io/}{Portfolio}
 \end{center}
-\vspace{-2pt}
 
-
-
-
-%-------------------- Professional Summary --------------------
+%-------------------- SUMMARY --------------------
 \section*{Professional Summary}
-Certified IT Support Technician with nearly 2 years of hands-on experience in technical support, system administration, and network infrastructure. A Canadore College honours graduate with a 3.3 GPA in Computer Systems and Networking Technician. Skilled at troubleshooting hardware, software, and network issues while providing excellent customer service. Specialized in Windows Server, Active Directory, and cloud platforms including Microsoft Azure and VMware. Committed to delivering secure, scalable IT solutions in both remote and on-site environments.
 
-%-------------------- Work Experience --------------------
-\section*{Work Experience}
-\resumeSubHeadingListStart
+IT Support Specialist with hands-on experience in Tier 1–2 helpdesk support, hardware and software troubleshooting, and end-user support in fast-paced environments. Skilled in Microsoft 365, Active Directory, Entra ID, Windows and macOS systems, AV/video conferencing, mobile devices, and network troubleshooting (TCP/IP, DNS, DHCP). Strong communicator and problem solver focused on delivering efficient solutions, maintaining secure IT systems, and improving user experience. Recent Honours Diploma graduate in Computer Systems \& Networking Technician with Azure Fundamentals certification and ongoing Network+ and CCNA studies. Valid G1 driver’s license with willingness to provide on-site support.
 
-\resumeSubheading
-{IT Technical Support \& Computer Laboratory Technician — Canadore College}{Sep 2024 – Apr 2025}
-{Mississauga, ON}{}
-\resumeItemListStart
-\resumeItem{Delivered Tier 1 IT support, resolving 150+ monthly tickets using Salesforce and F9 VoIP.}
-\resumeItem{Supported HyFlex classrooms (AV, Zoom SSO, cameras, microphones), reducing downtime by 30\%.}
-\resumeItem{Re-imaged and deployed 200+ workstations; configured OS, VPN access, printers, and applications.}
-\resumeItem{Maintained computer labs including routers, switches, servers, and PCs; assisted students during networking labs.}
-\resumeItemListEnd
+%-------------------- EXPERIENCE --------------------
+\section*{Relevant Experience}
 
-\resumeSubheading
-{Help Desk Support Intern — WorldLink Communications}{Oct 2021 – Apr 2022}
-{Dhangadhi, Nepal}{}
-\resumeItemListStart
-\resumeItem{Provided front-line support for internet outages and VoIP issues; configured routers, DHCP, static IPs, and port forwarding.}
-\resumeItem{Diagnosed LAN/WAN connectivity issues and documented solutions for internal knowledge base.}
-\resumeItem{Managed inventory of IT assets, conducting regular audits to ensure accurate tracking and timely replenishment, reducing asset loss.}
-\resumeItemListEnd
+\textbf{IT Support Technician (Internship)} \hfill Jan 2025 -- Apr 2025 \\
+RimKash IT Services Inc., Toronto, ON
+\begin{itemize}[leftmargin=*]
+\resumeItem{Delivered Tier 1–2 IT Helpdesk support for Windows 10/11 and macOS devices, resolving hardware, software, and network issues.}
+\resumeItem{Installed, configured, and deployed laptops, monitors, docking stations, printers, and AV/video conferencing systems (Teams, Zoom).}
+\resumeItem{Performed user account management, password resets, MFA troubleshooting, and access provisioning using Active Directory and Microsoft 365.}
+\resumeItem{Maintained IT asset inventory and lifecycle tracking to ensure accurate records and compliance.}
+\resumeItem{Troubleshot mobile devices, remote access tools, and basic VoIP connectivity issues.}
+\resumeItem{Assisted with patch management, OS deployment, and firmware upgrades.}
+\end{itemize}
 
-\resumeSubHeadingListEnd
+\textbf{IT Support Technician} \hfill Sep 2024 -- Apr 2025 \\
+Canadore College, Mississauga, ON
+\begin{itemize}[leftmargin=*]
+\resumeItem{Provided in-person and remote desktop support to staff and students in a multi-user environment.}
+\resumeItem{Configured Active Directory accounts, group policies, and permissions for secure access.}
+\resumeItem{Supported Microsoft 365 applications including Outlook, Teams, SharePoint, and OneDrive.}
+\resumeItem{Maintained documentation, troubleshooting guides, and knowledge base articles.}
+\resumeItem{Assisted with network troubleshooting, VPN access, and peripheral setup.}
+\end{itemize}
 
-%-------------------- Projects --------------------
-\section*{Projects}
-\resumeSubHeadingListStart
-\resumeSubheading
-{Academic \& Technical Projects — Python | Azure | Cisco}{}{}{}
-\resumeItemListStart
-\resumeItem{Developed a Python-based CLI POS system with inventory management, validation, and unit testing (CS50 Final Project).}
-\resumeItem{Deployed a fault-tolerant multi-region web application using Azure Traffic Manager and load balancing.}
-\resumeItem{Configured VLANs, inter-VLAN routing, DHCP, NAT, and ACLs using Cisco Packet Tracer.}
-\resumeItemListEnd
-\resumeSubHeadingListEnd
+\textbf{Help Desk Support Intern} \hfill Oct 2021 -- Apr 2022 \\
+WorldLink Communications, Nepal
+\begin{itemize}[leftmargin=*]
+\resumeItem{Provided front-line support via phone, email, and remote sessions in a high-volume environment.}
+\resumeItem{Troubleshot routers, modems, and Wi-Fi connectivity issues while maintaining SLA standards.}
+\resumeItem{Documented incidents and escalated complex technical problems when required.}
+\resumeItem{Delivered strong customer service to technical and non-technical users.}
+\end{itemize}
 
-%-------------------- Technical Skills --------------------
+%-------------------- PROJECTS --------------------
+\section*{Technical Projects and Labs}
+
+\textbf{Active Directory Home Lab} 
+\begin{itemize}[leftmargin=*]
+\resumeItem{Installed and configured Windows Server to deploy Active Directory Domain Services in a virtual environment.}
+\resumeItem{Created and managed users, security groups, and organizational units following enterprise best practices.}
+\resumeItem{Configured and tested Group Policy Objects (GPO) to enforce password, lockout, and security policies.}
+\resumeItem{Simulated account lockouts, password resets, and access troubleshooting scenarios.}
+\end{itemize}
+
+\textbf{Microsoft Entra ID and Cloud Identity Lab}
+\begin{itemize}[leftmargin=*]
+\resumeItem{Created and managed cloud users and groups using Microsoft Entra ID.}
+\resumeItem{Configured MFA, password reset policies, and conditional access scenarios.}
+\resumeItem{Simulated identity and access management workflows for hybrid environments.}
+\end{itemize}
+
+\textbf{IT Ticketing and Incident Management Lab}
+\begin{itemize}[leftmargin=*]
+\resumeItem{Deployed and configured Jira Service Management to simulate an enterprise helpdesk environment.}
+\resumeItem{Created and resolved tickets including account lockouts, VPN connectivity, and access issues.}
+\resumeItem{Documented troubleshooting steps, root causes, and resolution processes.}
+\resumeItem{Practiced prioritization, escalation, and communication following ITIL practices.}
+\end{itemize}
+
+%-------------------- TECHNICAL SKILLS --------------------
 \section*{Technical Skills}
-\textbf{Platforms:} Windows 10/11, Windows Server 2016–2022, Linux (Ubuntu), macOS \\
-\textbf{Cloud \& Virtualization:} Microsoft Azure, VMware, Hyper-V, VirtualBox \\
-\textbf{Networking:} TCP/IP, VLANs, Subnetting, NAT, DHCP, DNS, RIP, OSPF, VPN basics, LAN/WAN, Cisco Packet Tracer \\
-\textbf{Administration:} Active Directory, Azure AD (Entra ID), Microsoft 365, Exchange Online, Intune, Group Policy \\
-\textbf{Security:} Firewall rules, SSL/TLS basics, Metasploit (lab exposure) \\
-\textbf{Support \& Tools:} Salesforce, ServiceNow, F9 VoIP, RDP, Wireshark, Git, GitHub, VS Code \\
-\textbf{Scripting \& Databases:} PowerShell, Python, Bash, SQL, MySQL, SQL Server \\
-\textbf{Soft Skills:} Communication, Customer Service, Problem-Solving, Teamwork, Time Management
 
-%-------------------- Certifications --------------------
+\textbf{Operating Systems:} Windows 10/11, Windows Server, macOS \\
+\textbf{Enterprise Tools:} Microsoft 365, Exchange, Teams, SharePoint, OneDrive \\
+\textbf{Identity and Access:} Active Directory, Entra ID, MFA, user provisioning \\
+\textbf{Networking:} TCP/IP, DNS, DHCP, VPN, basic VoIP troubleshooting \\
+\textbf{Hardware and AV:} Laptop and desktop deployment, printers, AV/video conferencing \\
+\textbf{Support:} Ticketing systems, Jira, Spiceworks, remote support, IT documentation \\
+\textbf{Mobile Devices:} iOS and Android setup and support \\
+\textbf{Other:} Patch management, firmware upgrades, OS deployment, ITIL fundamentals
+
+%-------------------- CERTIFICATIONS --------------------
 \section*{Certifications}
-\resumeItemListStart
-\resumeItem{Getting Started with Cybersecurity - IBM}
-\resumeItem{Microsoft Certified: Azure Fundamentals (AZ-900)}
-\resumeItem{CS50: Introduction to Programming with Python — HarvardX}
-\resumeItem{Career Essentials in System Administration — Microsoft}
-\resumeItem{Computer Hardware Basics — Cisco}
-\resumeItemListEnd
 
-%-------------------- Education --------------------
+Microsoft Certified: Azure Fundamentals (AZ-900) \\
+Career Essentials in System Administration — Microsoft \\
+CS50's: Introduction to Programming with Python — Harvard University \\
+CompTIA Network+ (Expected March 2026) \\
+Cisco CCNA (Expected 2026) \\
+CompTIA A+ (In Progress)
+
+%-------------------- EDUCATION --------------------
 \section*{Education}
-\resumeSubHeadingListStart
-\resumeSubheading
-{\textbf{Canadore College, Mississauga, ON} — Honours Diploma in Computer Systems and Networking Technician}{}{}{}
-\resumeSubHeadingListEnd
 
-\resumeItemListStart
-\resumeItem{\textbf{CGPA:} 3.3/4.0 — Focus: Networking, System Administration, Cloud Computing, Microsoft Administration}
-\resumeItemListEnd
-
-\vspace{3pt}
-\begin{center}
-\textit{References available upon request}
-\end{center}
+Honours Diploma — Computer Systems \& Networking Technician \\
+Canadore College, Mississauga, ON \\
+CGPA: 3.34 / 4.0
 
 \end{document}
